@@ -1,4 +1,7 @@
 # Proyecto final
-
-- quienes integran el equipo
+    Integrantes:
+- Martin Rodriguez
+- Marisol Binaghi
+- Martin Baez
+    
 - explicacion del proyecto
