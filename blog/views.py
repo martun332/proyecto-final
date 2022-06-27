@@ -1,7 +1,11 @@
+from unittest import loader
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.template import Template
 
 # Create your views here.
 
 def inicio(request):
-    return HttpResponse("<h1> Hola mundo </h1>")
+    template = loader.get_template("index.html")
+    render = Template.render({})
+    return HttpResponse(render)
