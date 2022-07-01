@@ -11,3 +11,6 @@ def inicio(request):
     #render = template.render({})
     #return HttpResponse(render)
     return render(request, 'index.html', {})
+
+def nosotros(request):
+    return render(request, 'nosotros.html', {})
