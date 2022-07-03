@@ -5,6 +5,15 @@
 <title>Nosotros</title>
 {% endblock title %}
 
+{% block base_navbar %}
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#!">Start Bootstrap</a>
+        <a class="btn btn-primary" href={% url 'pagina_index' %}>Nosotros</a>
+    </div>
+</nav>
+{% endblock base_navbar %}
+
 {% block header_h1 %}
 <h1>Martin Baez<h1/>
 {% endblock header_h1 %}

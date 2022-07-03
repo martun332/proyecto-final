@@ -1,8 +1,17 @@
 {% extends 'base.html' %}
 
 {% block title %}
-<title>index</title>
+<title>indexx</title>
 {% endblock  %}
+
+{% block base_navbar %}
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#!">Start Bootstrap</a>
+        <a class="btn btn-primary" href={% url 'pagina_nosotros' %}>Nosotros</a>
+    </div>
+</nav>
+{% endblock base_navbar %}
 
 {% block header %}
 <header class="masthead">
